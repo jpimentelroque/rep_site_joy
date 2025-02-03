@@ -1,13 +1,13 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Sora-Light, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #000;
+  background-color: #1f1f1f;
   color: #fff;
 }
 
 header {
-  background-color: #111;
+  background-color: #1f1f1f;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -15,7 +15,15 @@ header {
 }
 
 .logo {
-  width: 100% --150px;
+  width: 50%; 
+  justify-content: center;
+  align-items: center;
+}
+
+.logopg {
+  width: 60pt; 
+  float: right;
+  padding: 0px;
 }
 
 nav ul {
@@ -30,6 +38,10 @@ nav ul li a {
   font-weight: bold;
 }
 
+nav li:hover {
+  background-color: #26fb9a;
+}
+
 .hero {
   text-align: center;
   padding: 100px 20px;
@@ -38,12 +50,12 @@ nav ul li a {
 
 .hero h1 {
   font-size: 2.5em;
-  color: #00ff99;
+  color: #26fb9a;
 }
 
 .hero .btn {
   padding: 10px 20px;
-  background-color: #00ff99;
+  background-color: #26fb9a;
   color: #000;
   text-decoration: none;
   font-weight: bold;
@@ -52,6 +64,38 @@ nav ul li a {
 
 footer {
   text-align: center;
-  padding: 20px;
+  background-color: #1f1f1f;
+  margin-top: auto;
+}
+
+.contact {
+  text-align: center;
+  padding: 2%;
   background-color: #111;
+}
+
+.email-submit {
+  padding: 10px 20px;
+  background-color: #26fb9a;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.textarea-cliente {
+  min-width: 25%;
+  height: 100px;
+  width: auto;
+  padding: 10px;
+  align-items: center;
+}
+
+.contact .btn {
+  padding: 10px 20px;
+  background-color: #26fb9a;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
 }
